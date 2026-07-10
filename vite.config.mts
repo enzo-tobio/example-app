@@ -26,7 +26,7 @@ export default defineConfig(({ mode }) => ({
     maxWorkers: 1,
     cache: false,
     sequence: {
-      shuffle: true,
+      seed: 1783698900338,
     },
   },
   define: {
