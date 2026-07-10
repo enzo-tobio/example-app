@@ -2,6 +2,8 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { ExampleComponent } from './example.component';
 
 describe('ExampleComponent', () => {
+  vi.useFakeTimers();
+
   let fixture: ComponentFixture<ExampleComponent>;
   let component: ExampleComponent;
 

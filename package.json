@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "test:singleWorker": "vitest run --maxWorkers=1 --cache=false "
   },
   "private": true,
   "packageManager": "npm@11.2.0",
