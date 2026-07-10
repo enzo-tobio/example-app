@@ -9,5 +9,3 @@ There are two test files:
 How to reproduce the issue:
 - Run `npm run test`
 - "app.spec.ts" tests will timeout if "example.component.spec.ts" was executed first. With this my assumption is that the test are not isolated
-
-Note: The vitest config sets suffle true to get a ramdom order you you may need to run the test command a couple of times to get that execution order
